@@ -1,0 +1,44 @@
+{
+  "name": "diff-focus",
+  "displayName": "Diff-Focus",
+  "description": "VS Code extension for diff analysis",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:diff-focus.analyze"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "diff-focus.analyze",
+        "title": "Analyze Diff"
+      }
+    ],
+    "menus": {
+      "scm/title": [
+        {
+          "command": "diff-focus.analyze",
+          "when": "scmProvider == git",
+          "group": "navigation"
+        }
+      ]
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.80.0",
+    "@types/node": "^18.0.0",
+    "typescript": "^5.0.0"
+  }
+}
+
