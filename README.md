@@ -1,5 +1,9 @@
 # Diff-Focus VS Code Extension
 
+[![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow.svg)](https://www.javascript.com/) [![GitHub stars](https://img.shields.io/github/stars/yksanjo/diff-focus-vscode?style=social)](https://github.com/yksanjo/diff-focus-vscode/stargazers) [![GitHub forks](https://img.shields.io/github/forks/yksanjo/diff-focus-vscode.svg)](https://github.com/yksanjo/diff-focus-vscode/network/members) [![GitHub issues](https://img.shields.io/github/issues/yksanjo/diff-focus-vscode.svg)](https://github.com/yksanjo/diff-focus-vscode/issues)
+[![Last commit](https://img.shields.io/github/last-commit/yksanjo/diff-focus-vscode.svg)](https://github.com/yksanjo/diff-focus-vscode/commits/main)
+
+
 VS Code extension for diff analysis. Analyze code changes directly in your editor and get instant context cards for code reviews.
 
 ## Features
